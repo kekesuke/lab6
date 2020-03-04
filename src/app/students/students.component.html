@@ -1,0 +1,13 @@
+
+<ul>
+    <li *ngFor="let student of studentData">
+        {{student.id}},
+        {{student.name}},
+        {{student.age}},
+        {{student.address}},
+        {{student.course}},
+    </li>
+</ul>
+
+<h2>Weather in Galway</h2>
+{{weatherData[0].main}},{{weatherData[0].description}}
